@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#formInDaBox {
+    background-color: rgb(230, 229, 228);
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Texturina';
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+#searchForm {
+    flex: inline-block;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    font-family: 'Texturina';
+    margin-top: 0;
+    padding-top: 1em;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 0.15em;
+}
+
+li:nth-of-type(5) {
+    padding-bottom: 1em;
+}
+
+img {
+    width: 15em;
+    height: 21em;
+    border-radius: 10%;
+}
+
+#hogwarts {
+    background-color:  rgb(230, 229, 228);
+    font-family: 'Josefin Sans';
+    margin: 0;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+#searchButton {
+    width: 7em;
+    height: 2.5em;
+    border-radius: 5%;
+    border: none;
+    outline: none;
+    background-color: rgb(159, 151, 204);
+}
+
+#searchButton:hover {
+    background-color: rgb(94, 88, 128);
+}
+
+#random {
+    width: 7em;
+    height: 2.5em;
+    border-radius: 5%;
+    border: none;
+    outline: none;
+    background-color: rgb(159, 151, 204);
+}
+
+#input {
+    height: 2em;
+    width: 15em;
+    outline: none;
+}
